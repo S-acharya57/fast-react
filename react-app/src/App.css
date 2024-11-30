@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* ------------------------NAVBAR CSS ------------------------ */
+
+.navbar-brand {
+  font-size: 2rem; /* Increase font size */
+  font-weight: bold; /* Make it bold */
+  color: #007bff; /* Add a primary color */
+  text-transform: uppercase; /* Convert to uppercase for a bold look */
+  letter-spacing: 2px; /* Add some spacing between letters */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem; /* Slightly larger font for links */
+  font-weight: 500; /* Medium weight for better readability */
+}
+
+.navbar-text {
+  font-size: 1.2rem; /* Larger font for the user name */
+  font-style: italic; /* Add a slight italic style for emphasis */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Darker shade of blue */
+  text-decoration: underline;
+}
+
+/* ------------------------NAVBAR CSS ------------------------ */
+
+.imageshow_class {
+  background: #eceef1;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
